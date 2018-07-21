@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ListingDetailsFrame
+comment0.text=\r\n\ This\ class\ models\ the\ listing\ detail\ window\ which\ pops\ up\ when\ \r\n\ a\ row\ on\ the\ lsiting\ detail\ Jtable\ is\ clicked\r\n\ @author\ A\ K\ M\ Naharul\ Hayat)\r\n
+comment1.params=id
+comment1.target=ListingDetailsFrame(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ListingDetailsFrame\r\n\ uses\ the\ id\ and\ the\ computation\ class\ to\ get\ the\ listing\ object\ and\ displays\ its\ details\ in\ the\ window\r\n
+comment2.params=id\ name\ hostName\ hostID\ neighbourhoodName\ longitude\ latitude\ type\ price\ minNights\ numberOfReviews\ lastReview\ reviewPerMonth\ hostListingCount\ availability
+comment2.target=void\ initComponents(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double,\ java.lang.String,\ int,\ int,\ int,\ java.lang.String,\ double,\ int,\ int)
+comment2.text=\r\n\ intitializes\ the\ components\ of\ the\ window,\ according\ to\ the\ listing\ object's\ details\r\n
+numComments=3

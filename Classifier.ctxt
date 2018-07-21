@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Classifier
+comment1.params=
+comment1.target=Classifier()
+comment1.text=\r\n\ the\ algorithm\ is\ initialised\r\n\ the\ data\ is\ loaded\ \r\n
+comment2.params=nei\ pr\ min\ ava
+comment2.target=double[]\ Classify(int,\ int,\ int,\ int)
+comment2.text=\r\n\ \ the\ function\ that\ call\ classify\ function\ to\ classify\ the\ data\ passed\ in\ \r\n\ \ \r\n\ \ \r\n\ \ @param\ neighbourhood\ of\ propertiy\r\n\ \ @param\ pr\ price\ of\ propertiy\r\n\ \ @param\ min\ minimum\ available\ night\ of\ propertiy\r\n\ \ @param\ available\ times\ of\ propertiy\r\n\ \ \r\n
+comment3.params=filePath\ classIndex
+comment3.target=weka.core.Instances\ getDataset(java.lang.String,\ int)
+comment3.text=\r\n\ this\ function\ load\ the\ data\ from\ local\ and\ convert\ it\ into\ a\ instances\ which\ are\ needed\ \r\n\ for\ classification\ algorithm\ \r\n\ \r\n\ @param\ filePath\ the\ path\ of\ the\ data\r\n\ @param\ classIndex\ the\ index\ of\ the\ class\ which\ you\ want\ to\ use\ as\ output(classes)\r\n\ \r\n\ @return\ A\ instaces\ of\ traning\ data\r\n\ \r\n
+comment4.params=
+comment4.target=void\ train()
+comment4.text=\r\n\ This\ function\ train\ the\ model\ with\ traing\ data\ \r\n\ model\ needs\ to\ be\ trained\ before\ being\ used\ \r\n
+comment5.params=nei\ pr\ min\ ava
+comment5.target=double[]\ classify(int,\ int,\ int,\ int)
+comment5.text=\r\n\ This\ is\ the\ function\ which\ actually\ do\ the\ classification\ works,\ \r\n\ the\ input\ data\ passed\ in\ is\ converted\ into\ a\ instances\ first\ firstly(set\ up\ with\ the\ feature\ \r\n\ vector\ (label\ )),\ then\ set\ the\ training\ data\ to\ the\ training\ data\ used\ for\ training.\ lastly,go\ through\r\n\ the\ decision\ tree\ to\ make\ decision\ \r\n\ \r\n\ @param\ neighbourhood\ of\ propertiy\r\n\ @param\ pr\ price\ of\ propertiy\r\n\ @param\ min\ minimum\ available\ night\ of\ propertiy\r\n\ @param\ available\ times\ of\ propertiy\r\n\ \r\n\ \r\n\ @return\ \ probabilities\ of\ all\ classes\r\n
+comment6.params=
+comment6.target=weka.core.FastVector\ makeFeatureVector()
+comment6.text=\r\n\ define\ the\ feature\ vector\ format\r\n
+comment7.params=
+comment7.target=java.lang.String\ getErrorMaxholder()
+comment7.text=\r\n\ get\ the\ errorMaxholder\r\n
+numComments=8

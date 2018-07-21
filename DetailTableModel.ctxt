@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=DetailTableModel
+comment0.text=\r\n\ This\ is\ a\ TableViewController\ for\ Detail\ Table\ that\ shows\ when\ a\ house\ icon\ is\ clicked\r\n\r\n\ @Fu\ Zhang\r\n\ @1.0\r\n
+comment1.params=list
+comment1.target=DetailTableModel(java.util.ArrayList)
+comment2.params=
+comment2.target=int\ getColumnCount()
+comment3.params=
+comment3.target=int\ getRowCount()
+comment4.params=columnIndex
+comment4.target=java.lang.String\ getColumnName(int)
+comment5.params=columnIndex
+comment5.target=java.lang.Class\ getColumnClass(int)
+comment6.params=rowIndex\ columnIndex
+comment6.target=java.lang.Object\ getValueAt(int,\ int)
+numComments=7

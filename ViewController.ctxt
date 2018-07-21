@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ViewController
+comment0.text=\r\n\ Controls\ the\ action\ of\ all\ GUI\ components\ in\ the\ programme.\r\n\ All\ GUI\ interfaces\ should\ inherit\ this\ method.\r\n
+comment1.params=
+comment1.target=ViewController()
+numComments=2

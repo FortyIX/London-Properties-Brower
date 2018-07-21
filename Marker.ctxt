@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Marker
+comment0.text=\r\n\ This\ is\ a\ customized\ version\ of\ the\ JButton\ which\ not\ only\ have\ all\ feature\ JButton\ have,but\ also\ being\ able\r\n\ to\ store\ its\ sizing\ information\ and\ set\ the\ icon\ when\ initialing\r\n\r\n\ @author\ Fu\ Zhang\r\n
+comment1.params=size
+comment1.target=Marker(double)
+comment2.params=size\ tooltiptext
+comment2.target=Marker(double,\ java.lang.String)
+comment2.text=\r\n\ An\ alternative\ constructor\ for\ this\ object\ which\ sets\ a\ default\ hover\ text\r\n
+comment3.params=
+comment3.target=double\ getMarkerSize()
+comment3.text=\r\n\ @return\ Returns\ the\ marker\ size\r\n
+comment4.params=size
+comment4.target=void\ setMarkerSize(double)
+comment4.text=\r\n\ Sets\ the\ marker\ size.\ If\ its\ not\ between\ 10\ and\ 30\ a\ default\ minimum\ of\ maximum\ value\ is\ chosen.\r\n\ \r\n\ @param\ New\ marker\ size\ \r\n
+comment5.params=x
+comment5.target=void\ setIcon(int)
+comment5.text=\r\n\ Size\ changer\ for\ the\ pic\r\n
+numComments=6
